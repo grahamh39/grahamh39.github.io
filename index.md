@@ -47,6 +47,5 @@ This loop goes through a dataframe containing the raw text, splits each cell one
 keywords = ["Trump","Biden","Election","Coronavirus","Election Integrity","Economy","Election Violence",
             "Azerbaijan/Armenia","Michigan","Wisconsin","Pennsylvania","Arizona","Nevada","Florida","Climate Change"]
 ```
-
-
+For some of these buckets the search is straightforward; for example, when searching for Trump there is only one word I'm interested in: Trump. But for some of the less-specific buckets, there are several keywords which could be included. The complete list of buckets/keywords is included in the code for this part of the analysis, available [here](https://github.com/grahamh39/DATS6103-Project-2-Graham-Hulsey-/blob/main/code/Graham%20Hulsey%20Project%202%20Code%20Part%202%20-%20Analysis.ipynb). After some data wrangling, it's time to make some plots and actually analyze all this data.
 
