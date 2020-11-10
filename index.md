@@ -62,3 +62,10 @@ Next, lets look at a couple of election-related buckets. The following graphs sh
 ![integrity](https://raw.githubusercontent.com/grahamh39/DATS6103-Project-2-Graham-Hulsey-/main/plots/integrity_plot.png)
 
 Across outlets, it seems that coverage of the election peaked on election night and has been slowly decreasing since. However, after election night there was a dramatic increase in headlines related to the integrity of the election on Fox. A few other outlets, such as the Washington Post, also covered the integrity of the election although not as frequently or consistently as Fox. Notablty, integrity related headlines don't really appear before election night, suggesting that the narrative that the election was "stolen" or "illegitimate" only formed after the results began to come in.
+
+Now let's look at some non-election stories. First, the economy:
+
+![economy](https://raw.githubusercontent.com/grahamh39/DATS6103-Project-2-Graham-Hulsey-/main/plots/economy_plot.png)
+
+CNBC spends way more time on the economy than any other news network, with Fox coming in at a distant second. Most outlets spend very little time on the economy, though. Next, let's look at coverage of the COVID-19 pandemic:
+![covid](https://raw.githubusercontent.com/grahamh39/DATS6103-Project-2-Graham-Hulsey-/main/plots/corona_plot.png)
