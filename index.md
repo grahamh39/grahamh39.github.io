@@ -54,4 +54,9 @@ First, let's look at how frequently media outlets covered Trump and Biden. The f
 ![trump](https://raw.githubusercontent.com/grahamh39/DATS6103-Project-2-Graham-Hulsey-/main/plots/trump_plot.png)
 ![biden](https://raw.githubusercontent.com/grahamh39/DATS6103-Project-2-Graham-Hulsey-/main/plots/biden_plot.png)
 
+The first thing to notice is that Fox News covers Trump much more frequently than any others news outlet. The second thing to notice is that coverage of Biden was lower than coverage of Trump until Biden was announced as the president-elect the morning of November 7. This suggests that whether the news is good or bad, media outlets commit more space to covering Trump than they do other politicians.
 
+Next, lets look at a couple of election-related buckets. The following graphs show election related headlines and headlines that concern the integrity of the election, respectively.
+
+![election](https://raw.githubusercontent.com/grahamh39/DATS6103-Project-2-Graham-Hulsey-/main/plots/election_plot.png)
+![integrity](https://raw.githubusercontent.com/grahamh39/DATS6103-Project-2-Graham-Hulsey-/main/plots/integrity_plot.png)
