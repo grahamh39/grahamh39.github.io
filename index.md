@@ -73,6 +73,12 @@ CNBC spends way more time on the economy than any other news network, with Fox c
 
 Most news outlets have at least some coverage of the pandemic, and coverage seems nearly constant. This suggests that election-related events were not taking space away from pandemic coverage, implying that news organizations still felt that the pandemic was worth covering.
 
+Lastly, let's see who is covering climate change and how frequently:
+
+![climate](https://raw.githubusercontent.com/grahamh39/DATS6103-Project-2-Graham-Hulsey-/main/plots/climate_plot.png)
+
+Not very surprising, unfortunately.
+
 The last thing I want to do is look at what issues each outlet covers most. First, Fox News:
 
 ![fox](https://raw.githubusercontent.com/grahamh39/DATS6103-Project-2-Graham-Hulsey-/main/plots/fox_plot.png)
