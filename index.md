@@ -51,6 +51,7 @@ For some of these buckets the search is straightforward; for example, when searc
 
 First, let's look at how frequently media outlets covered Trump and Biden. The following plots display that data. 
 
-![trump](https://raw.githubusercontent.com/grahamh39/DATS6103-Project-2-Graham-Hulsey-/main/plots/arizona_plot.png)
+![trump](https://raw.githubusercontent.com/grahamh39/DATS6103-Project-2-Graham-Hulsey-/main/plots/trump_plot.png)
+![biden](https://raw.githubusercontent.com/grahamh39/DATS6103-Project-2-Graham-Hulsey-/main/plots/biden_plot.png)
 
 
