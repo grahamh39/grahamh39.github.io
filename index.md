@@ -47,7 +47,7 @@ This loop goes through a dataframe containing the raw text, splits each cell one
 keywords = ["Trump","Biden","Election","Coronavirus","Election Integrity","Economy","Election Violence",
             "Azerbaijan/Armenia","Michigan","Wisconsin","Pennsylvania","Arizona","Nevada","Florida","Climate Change"]
 ```
-For some of these buckets the search is straightforward; for example, when searching for Trump there is only one word I'm interested in: Trump. But for some of the less-specific buckets, there are several keywords which could be included. The complete list of buckets/keywords is included in the code for this part of the analysis, available [here](https://github.com/grahamh39/DATS6103-Project-2-Graham-Hulsey-/blob/main/code/Graham%20Hulsey%20Project%202%20Code%20Part%202%20-%20Analysis.ipynb). After some data wrangling, it's time to make some plots and actually analyze all this data.
+For some of these buckets the search is straightforward; for example, when searching for Trump there is only one word I'm interested in: Trump. But for some of the less-specific buckets, there are several keywords which could be included. The complete list of buckets/keywords is included in the code for this part of the analysis, available [here](https://github.com/grahamh39/DATS6103-Project-2-Graham-Hulsey-/blob/main/code/Graham%20Hulsey%20Project%202%20Code%20Part%202%20-%20Analysis.ipynb). After some data wrangling, it's time to make some plots and actually analyze all this data. All plots are available [here](https://github.com/grahamh39/DATS6103-Project-2-Graham-Hulsey-/tree/main/plots)
 
 First, let's look at how frequently media outlets covered Trump and Biden. The following plots display that data. 
 
@@ -68,4 +68,21 @@ Now let's look at some non-election stories. First, the economy:
 ![economy](https://raw.githubusercontent.com/grahamh39/DATS6103-Project-2-Graham-Hulsey-/main/plots/economy_plot.png)
 
 CNBC spends way more time on the economy than any other news network, with Fox coming in at a distant second. Most outlets spend very little time on the economy, though. Next, let's look at coverage of the COVID-19 pandemic:
+
 ![covid](https://raw.githubusercontent.com/grahamh39/DATS6103-Project-2-Graham-Hulsey-/main/plots/corona_plot.png)
+
+Most news outlets have at least some coverage of the pandemic, and coverage seems nearly constant. This suggests that election-related events were not taking space away from pandemic coverage, implying that news organizations still felt that the pandemic was worth covering.
+
+The last thing I want to do is look at what issues each outlet covers most. First, Fox News:
+
+![fox](https://raw.githubusercontent.com/grahamh39/DATS6103-Project-2-Graham-Hulsey-/main/plots/fox_plot.png)
+
+Fox largely covered 4 issues: the election, Trump, Biden, and coronavirus. Interestingly, Trump received more coverage than Biden until Biden was announced as the winner. 
+
+Here is the New York Times:
+
+![nyt](https://raw.githubusercontent.com/grahamh39/DATS6103-Project-2-Graham-Hulsey-/main/plots/ny_plot.png)
+
+Just like Fox, the same 4 issues pop up: the election, Trump, Biden, and coronavirus. Unlike Fox, the Times gave Trump and Biden equal coverage until Biden won. 
+
+Across all US-based media organizations, the same 4 stories were covered most frequently: the election, Trump, Biden, and coronavirus. 
