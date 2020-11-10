@@ -27,4 +27,26 @@ for key in sources:
     for paragraph in soup.find_all("a"):
         scrapes[key].append(paragraph.text)
 ```
-Here, sources is a dictionary of each news outlet and its url address, and all html tet with the marker "a" gets appended to an empty list in a dictionary. Some quick data cleaning turns this into a dataframe. I ran the web scraper once every morning and evening, beginning on the evening of November 2nd and ending on the evening of November 8. There were two occasions where the scraper had difficulty connecting to many newsites, the evening of November 4 (the night after the election) and the evening of November 7 (the night after Joe Biden was announced as the winner).
+Here, sources is a dictionary of each news outlet and its url address, and all html text with the marker "a" gets appended to an empty list corresponding to that outlet in a dictionary. Some quick data cleaning turns this into a dataframe. I ran the web scraper once every morning and evening, beginning on the evening of November 2nd and ending on the evening of November 8. There were two occasions where the scraper had difficulty connecting to many newsites, the evening of November 4 (the night after the election) and the evening of November 7 (the night after Joe Biden was announced as the winner). The full jupyter notebook for this part of the analysis is available on my Github page [here](https://github.com/grahamh39/DATS6103-Project-2-Graham-Hulsey-/blob/main/code/Graham%20Hulsey%20Project%202%20Code%20Part%201%20-%20Web%20Scraping.ipynb).
+
+Next, it's time for the analysis. The first thing I wanted to do was to see how much data I actually had. Since I'm interested in words, I counted the total number of words available. 
+```
+word_count_total = 0
+for source in range(len(sources)):
+    for date in range(len(dates)):
+        text = df.iloc[source,date]
+        word_count = len(text.split())
+        word_count_total += word_count
+print("Total word count is " + str(word_count_total))
+
+Total word count is 171980
+```
+This loop goes through a dataframe containing the raw text, splits each cell one at a time, and adds the length of the resulting list to the word count. In total, there are 171,980 words in the data set. Obviously, I'm not interested in many of these, so I'll have to go through and just count the words I am interested in. To do that, I created an empty multi-indexed dataframe, where the columns are dates, and the rows are the news source (outer index) and the keyword bucket I am interested in. Here are the buckets of keywords I want to look for:
+
+```
+keywords = ["Trump","Biden","Election","Coronavirus","Election Integrity","Economy","Election Violence",
+            "Azerbaijan/Armenia","Michigan","Wisconsin","Pennsylvania","Arizona","Nevada","Florida","Climate Change"]
+```
+
+
+
