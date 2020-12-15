@@ -1,4 +1,4 @@
-Welcome! This is a brief synopsis of my Individual Project 3 for DATS 6103 Introduction to Data Mining. Python code for this project is available [here.](https://github.com/grahamh39/DATS6103-Proect-3-Graham-Hulsey/tree/main/code)
+This is a brief synopsis of my Individual Project 3 for DATS 6103 Introduction to Data Mining. Python code for this project is available [here.](https://github.com/grahamh39/DATS6103-Proect-3-Graham-Hulsey/tree/main/code)
 
 In this project, I conducted a network analysis of trade and security networks in four regions: the Middle East, Sub-Saharan Africa, East Asia, and the European Union member states. The first three region definitions come from the World Bank. Data on [bilateral trade](https://correlatesofwar.org/data-sets/bilateral-trade) and [defense cooperation agreements](https://correlatesofwar.org/data-sets/defense-cooperation-agreement-dataset) come from the Correlates of War Project.
 
