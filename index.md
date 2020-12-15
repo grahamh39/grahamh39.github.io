@@ -1,6 +1,6 @@
 This is a brief synopsis of my Individual Project 3 for DATS 6103 Introduction to Data Mining. Python code for this project is available [here.](https://github.com/grahamh39/DATS6103-Proect-3-Graham-Hulsey/tree/main/code)
 
-In this project, I conducted a network analysis of trade and security networks in four regions: the Middle East, Sub-Saharan Africa, East Asia, and the European Union member states. The first three region definitions come from the World Bank. Data on [bilateral trade](https://correlatesofwar.org/data-sets/bilateral-trade) and [defense cooperation agreements](https://correlatesofwar.org/data-sets/defense-cooperation-agreement-dataset) come from the Correlates of War Project.
+In this project, I conducted a network analysis of trade and security networks in four regions: the Middle East & North Africa, Sub-Saharan Africa, East Asia, and the European Union member states. The first three region definitions come from the World Bank. Data on [bilateral trade](https://correlatesofwar.org/data-sets/bilateral-trade) and [defense cooperation agreements](https://correlatesofwar.org/data-sets/defense-cooperation-agreement-dataset) come from the Correlates of War Project.
 
 Here, I'll just go over security networks. The gifs for trade data are too large to store on Github but can be viewed on Zenodo [here.](https://zenodo.org/record/4321990) To start, let's look at the European Union member states.
 
@@ -18,3 +18,4 @@ Lastly, let's take a look at the Middle East.
 
 <img src="https://raw.githubusercontent.com/grahamh39/DATS6103-Proect-3-Graham-Hulsey/main/outputs/dca_Middle%20East_all_years.gif" />
 
+Like East Asia, the Middle East & North Africa is relatively disconnected in the security sphere (aside from the GCC, which is not included here). Saudi Arabia, Egypt, and Kuwait emerge as the most central Middle Eastern nations, while Tunisia and Algeria are the most central North African countries. Much of the region remains unconnected, as average node connectivity is roughly 0.5% by 2010. The data does not extend up to the Arab Spring, which would be an interesting period to study. One hypothesis is that, as countries felt increasing pressure from their population, they became more likely to sign defense cooperation agreements with one another to bolster domestic security.
