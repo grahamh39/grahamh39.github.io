@@ -1,4 +1,4 @@
-Welcome! This is a presentation of my Individual Project 2 for DATS 6103 Introduction to Data Mining.
+Welcome! Hello! This is a presentation of my Individual Project 2 for DATS 6103 Introduction to Data Mining.
 
 In this project, I chose to gather data on headlines posted to major news sites and to analyze them in light of the ongoing US presidential election. I chose 12 news outlets:
 
